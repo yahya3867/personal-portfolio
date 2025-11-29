@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --link-color: #005CAF;
+  --link-hover: #003d7a;
+  font-size: 12.8px;
+}
+
+@media (min-width: 48em) {
+  :root {
+    font-size: 14.4px;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "minion-pro", "TeXGyrePagella", "tex_gyre_pagella", "adobe-caslon-pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "minion-pro", "TeXGyrePagella", "tex_gyre_pagella", "adobe-caslon-pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 1.563em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4, h5, h6 {
+  font-size: 0.75em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--link-hover);
+}
+
+.small, small {
+  font-size: 0.75em;
+}
+
+code, pre {
+  font-family: Monaco, Consolas, "Courier New", monospace;
+  font-size: 0.75em;
+}
+
+figcaption {
+  font-size: 0.75em;
+}
+
+/* Custom utility classes */
+.link-blue {
+  color: var(--link-color);
+}
+
+.link-blue:hover {
+  text-decoration: underline;
+  color: var(--link-hover);
+}
+
+.link-red {
+  color: #d32f2f;
+}
+
+.link-red:hover {
+  text-decoration: underline;
+}
