@@ -142,6 +142,28 @@ export default function Home() {
   pages={IN23A--2189},
   year={2024}
 }`
+    },
+    {
+      id: 7,
+      title: "Automating Data Collection to Support Conflict Analysis: Scraping the Internet for Monitoring Hourly Conflict in Sudan",
+      authors: "Yahya Masri, Anusha Srirenganathan Malarvizhi, Samir Ahmed, Tayven Stover, Zifu Wang, Daniel Rothbart, Mathieu Bere, David Wong, Dieter Pfoser, Chaowei Yang",
+      venue: "Cloud Computing and Data Science",
+      year: "2026",
+      selected: true,
+      links: {
+        pdf: null,
+        bibtex: null,
+        slides: null,
+        poster: null,
+        code: null
+      },
+      bibtex: `@article{masri2026automating,
+  title={Automating Data Collection to Support Conflict Analysis: Scraping the Internet for Monitoring Hourly Conflict in Sudan},
+  author={Masri, Yahya and Malarvizhi, Anusha Srirenganathan and Ahmed, Samir and Stover, Tayven and Wang, Zifu and Rothbart, Daniel and Bere, Mathieu and Wong, David and Pfoser, Dieter and Yang, Chaowei},
+  journal={Cloud Computing and Data Science},
+  pages={63--84},
+  year={2026}
+}`
     }
   ];
 

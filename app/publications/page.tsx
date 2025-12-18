@@ -20,6 +20,13 @@ export default function Publications() {
       journal: "IJDE International Journal of Digital Earth",
       status: "Under Review",
       year: "2025"
+    },
+    {
+      id: 4,
+      title: "Automating Data Collection to Support Conflict Analysis: Scraping the Internet for Monitoring Hourly Conflict in Sudan",
+      journal: "Cloud Computing and Data Science",
+      status: "Published",
+      year: "2026"
     }
   ];
 
