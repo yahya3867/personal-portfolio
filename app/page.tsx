@@ -275,6 +275,12 @@ export default function Home() {
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             <li style={{ marginBottom: '1em' }}>
+              <strong>December 2025:</strong> Presented <a href="/Yahya_AGU_12182025.pdf">poster</a> on Building a Computing Infrastructure Digital Twin at AGU25.
+            </li>
+            <li style={{ marginBottom: '1em' }}>
+              <strong>December 2025:</strong> Published paper in <a href="/CCDS-8226_final.pdf">Cloud Computing and Data Science</a> on automating data collection for conflict analysis in Sudan.
+            </li>
+            <li style={{ marginBottom: '1em' }}>
               <strong>September 2025:</strong> Worked with an ASSIP fellow this summer, mentored and guided to publish <a href="https://journals.gmu.edu/jssr/article/view/5353">this abstract</a>.
             </li>
             <li style={{ marginBottom: '1em' }}>
