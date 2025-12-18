@@ -63,10 +63,13 @@ export default function Home() {
       },
       bibtex: `@article{wang2025optimizing,
   title={Optimizing context-based location extraction by tuning open-source LLMs with RAG},
-  author={Wang, Zifu and Masri, Yahya and Malarvizhi, Anusha Srirenganathan and Stover, Tayven and Ahmed, Samir and Wong, David and Jiang, Yongyao and Li, Yun and Bere, Mathieu and Rothbart, Daniel and Pfoser, Dieter and Marshall, David and Yang, Chaowei},
+  author={Wang, Zifu and Masri, Yahya and Malarvizhi, Anusha Srirenganathan and Stover, Tayven and Ahmed, Samir and Wong, David and Jiang, Yongyao and Li, Yun and Bere, Mathieu and Rothbart, Daniel and others},
   journal={International Journal of Digital Earth},
+  volume={18},
+  number={1},
+  pages={2521786},
   year={2025},
-  doi={10.1080/17538947.2025.2521786}
+  publisher={Taylor \& Francis}
 }`
     },
     {
@@ -85,15 +88,19 @@ export default function Home() {
       },
       bibtex: `@article{masri2025comparative,
   title={Comparative Analysis of BERT and GPT for Classifying Crisis News with Sudan Conflict as an Example},
-  author={Masri, Yahya and Wang, Zifu and Malarvizhi, Anusha Srirenganathan and Ahmed, Samir and Stover, Tayven and Wong, David W. S. and Jiang, Yongyao and Li, Yun and Liu, Qian and Bere, Mathieu and Rothbart, Daniel and Pfoser, Dieter and Yang, Chaowei},
+  author={Masri, Yahya and Wang, Zifu and Srirenganathan Malarvizhi, Anusha and Ahmed, Samir and Stover, Tayven and Wong, David WS and Jiang, Yongyao and Li, Yun and Liu, Qian and Bere, Mathieu and others},
   journal={Algorithms},
-  year={2025}
+  volume={18},
+  number={7},
+  pages={420},
+  year={2025},
+  publisher={MDPI}
 }`
     },
     {
       id: 5,
       title: "Digital Twin Framework for Real-Time Computing Infrastructure Monitoring",
-      authors: "Yahya Masri, Zifu Wang, Chaowei Yang",
+      authors: "Emily Ma, Yaya Lan, Chris Yang, Yahya Masri, Joseph Rogers, Elizabeth Sienkiewicz, Chaowei Yang",
       venue: "Journal of Student Scholarly Research",
       year: "2025",
       selected: false,
@@ -104,10 +111,11 @@ export default function Home() {
         poster: null,
         code: null
       },
-      bibtex: `@article{masri2025digital,
+      bibtex: `@article{ma2025digital,
   title={Digital Twin Framework for Real-Time Computing Infrastructure Monitoring},
-  author={Masri, Yahya and Wang, Zifu and Yang, Chaowei},
-  journal={Journal of Student Scholarly Research},
+  author={Ma, Emily and Lan, Yaya and Yang, Chris and Masri, Yahya and Rodgers, Joseph and Sienkiewicz, Elizabeth and Yang, Chaowei},
+  journal={Journal of Student-Scientists' Research},
+  volume={7},
   year={2025}
 }`
     },
@@ -125,10 +133,13 @@ export default function Home() {
         poster: null,
         code: null
       },
-      bibtex: `@inproceedings{wang2024automated,
-  title={Automated Conflict Mapping Digital Twin},
-  author={Wang, Zifu and Masri, Yahya and others},
-  booktitle={AGU Fall Meeting 2024},
+      bibtex: `@inproceedings{wang2024automating,
+  title={Automating Map-Making through Enhanced Geographic Information Extraction Using Retrieval-Augmented Generation (RAG) with Large Language Model (LLM)},
+  author={Wang, Zifu and Malarvizhi, Anusha Srirenganathan and Masri, Yahya and Stover, Tayven and Ahmed, Samir and Yang, Chaowei Phil},
+  booktitle={AGU Fall Meeting Abstracts},
+  volume={2024},
+  number={2189},
+  pages={IN23A--2189},
   year={2024}
 }`
     }
