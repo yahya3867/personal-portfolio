@@ -410,6 +410,7 @@ export default function Home() {
           <h2 style={{ fontSize: '1.2em' }}>Professional Service</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <ul>
+            <li>Presented at <a href="https://scholar.google.com/scholar?cluster=8455399897042261358&hl=en&oi=scholarr">Annual AGU25</a></li>
             <li>Presented at <a href="https://ui.adsabs.harvard.edu/abs/2024AGUFMIN23A2189W/abstract">AGU Fall Meeting 2024</a></li>
             <li>Presented at the <a href="https://stds2024.stcenter.net/">2024 International Symposium of Spatiotemporal Data Science</a></li>
             <li>Presented at the <a href="https://www.stcenter.net/">NSF STC</a> IAB meetings (Harvard 2024, GMU 2024)</li>
@@ -421,7 +422,7 @@ export default function Home() {
           <h2 style={{ fontSize: '1.2em' }}>☕ Miscellaneous</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <p>
-            <strong>Projects:</strong> <a href="https://github.com/tugawangjie/soccer-bot">SoccerBot</a> (LLM-powered soccer prediction and analysis app with RAG), <a href="https://github.com/yahya3867/BlueTemp">BlueTemp</a> (AI platform for predicting sea water temperatures), <a href="https://github.com/yahya3867/Crushor">Crushor</a> (retro platform game)
+            <strong>Projects:</strong> <a href="https://tryglimpse.dev/">Glimpse</a> (AI platform that converts product one-liners into cinematic marketing videos), <a href="https://github.com/tugawangjie/soccer-bot">SoccerBot</a> (LLM-powered soccer prediction and analysis app with RAG), <a href="https://github.com/yahya3867/BlueTemp">BlueTemp</a> (AI platform for predicting sea water temperatures), <a href="https://github.com/yahya3867/Crushor">Crushor</a> (retro platform game)
           </p>
         </section>
       </main>
