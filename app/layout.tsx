@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import Masthead from './components/Masthead';
 
 export const metadata: Metadata = {
   title: 'Yahya Masri',
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Masthead />
         {children}
       </body>
     </html>

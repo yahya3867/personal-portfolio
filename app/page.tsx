@@ -255,7 +255,7 @@ export default function Home() {
       {/* Main Content Column */}
       <main style={{ flex: 1, minWidth: 0, fontSize: '0.95em', paddingRight: '1em' }}>
         {/* About Section */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="about" style={{ marginBottom: '3em' }}>
           <h2 style={{ fontSize: '1.2em' }}>About</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <p>
@@ -270,7 +270,7 @@ export default function Home() {
         </section>
 
         {/* News and Updates */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="news" style={{ marginBottom: '3em' }}>
           <h2 style={{ fontSize: '1.2em' }}>News and Updates</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -308,7 +308,7 @@ export default function Home() {
         </section>
 
         {/* Research */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="research" style={{ marginBottom: '3em' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
             <h2 style={{ fontSize: '1.2em', margin: 0 }}>Research</h2>
             <button
@@ -378,7 +378,7 @@ export default function Home() {
         </section>
 
         {/* Teaching & Mentoring */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="teaching" style={{ marginBottom: '3em' }}>
           <h2 style={{ fontSize: '1.2em' }}>Teaching & Mentoring</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <p>
@@ -390,7 +390,7 @@ export default function Home() {
         </section>
 
         {/* Experience */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="experience" style={{ marginBottom: '3em' }}>
           <h2 style={{ fontSize: '1.2em' }}>Experience</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5em' }}>
@@ -406,7 +406,7 @@ export default function Home() {
         </section>
 
         {/* Professional Service */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="service" style={{ marginBottom: '3em' }}>
           <h2 style={{ fontSize: '1.2em' }}>Professional Service</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <ul>
@@ -418,7 +418,7 @@ export default function Home() {
         </section>
 
         {/* Miscellaneous */}
-        <section style={{ marginBottom: '3em' }}>
+        <section id="miscellaneous" style={{ marginBottom: '3em' }}>
           <h2 style={{ fontSize: '1.2em' }}>☕ Miscellaneous</h2>
           <div style={{ borderBottom: '1px solid #ddd', marginBottom: '1em' }}></div>
           <p>
